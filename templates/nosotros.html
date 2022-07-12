@@ -1,0 +1,32 @@
+{% extends 'layouts/tienda.html' %}{% load static %} {% block content %}
+
+<div class="min-vh-100 d-flex flex-colum py-2">
+    <div class="container">
+        <h3 class="animate__animated animate__bounceInDown animate__delay-0.3s text-center py-4">¿Quienes somos?</h3>
+        <div class="row py-auto">
+            <div class="col-lg-8">
+                <p class="animate__animated animate__backInRight animate__delay-0.3s text-justify">
+                    Bienvenido a Electro Speed
+                    Somos una organización con más de 20 años entregando servicios eléctricos integrales.
+                </p>
+                <br>
+                <p class="animate__animated animate__backInRight animate__delay-0.3s text-justify">
+                    Somos una empresa de servicios eléctricos líder en el sector. Hemos adquirido nuestra experiencia participando íntegramente en la organización y ejecución de proyectos de gran relevancia como son centros comerciales, parques empresariales,
+                            aeropuertos, torres de control de vuelo, hoteles, hospitales, museos, plantas de producción de energía y otros de menor envergadura, PYMES y comercios, pero no por ello menos importantes para nosotros, siempre atendiendo y
+                            primando la calidad y atención a clientes y que deseamos poner a su servicio en todo su ámbito.
+                </p>
+            </div>
+
+            <div class="col-lg-4 animate__animated animate__bounceInUp animate__delay-0.4s ">
+                <img class="img-fluid ml-auto" src="{% static 'assets/grupo3.jpg' %}" alt="team">
+            </div>
+
+        </div>
+        <div class="row animate__animated animate__bounceInUp animate__delay-1s">
+            <p class="mb-1">Teléfono: +569 981 962 250 | +569 981 550 695</p>
+            <p> Asunción, Chile</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
